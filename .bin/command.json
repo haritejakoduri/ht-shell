@@ -5,10 +5,7 @@
    "p":{
       "exe":"pwd"
    },
-   "bytes":{
-      "exe":"speedtest-cli --bytes"
-   },
-   "bits":{
-      "exe":"speedtest-cli"
+   "c":{
+      "exe":"cal"
    }
 }
