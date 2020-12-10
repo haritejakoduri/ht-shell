@@ -1,0 +1,14 @@
+{
+   "ls":{
+      "exe":"ls -l"
+   },
+   "p":{
+      "exe":"pwd"
+   },
+   "bytes":{
+      "exe":"speedtest-cli --bytes"
+   },
+   "bits":{
+      "exe":"speedtest-cli"
+   }
+}
