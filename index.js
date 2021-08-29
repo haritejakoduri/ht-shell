@@ -11,7 +11,10 @@ var term1 = readline.question(">");
 typeof(term1)
 let c=new CMD();
 try {
-   if(term1!='' && json[`${term1}`].exe!=undefined){
+   if(term1==='help'){
+      console.log(json)
+   }
+   else if(term1!='' && json[`${term1}`].exe!=undefined){
       if(term1=="exit") 
       {
          loop=false
