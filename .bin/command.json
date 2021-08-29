@@ -1,46 +1,58 @@
 {
    "b-stat":{
-      "exe":"termux-battery-status"
+      "exe":"termux-battery-status",
+      "hasArguments":false
    },
    "bright":{
       "exe":"termux-brightness",
-      "isArguments":true
+      "hasArguments":true
    },
    "c-log":{
-      "exe":"termux-cal-log"
+      "exe":"termux-call-log",
+      "hasArguments":false
    },
    "cam-i":{
-      "exe":"termux-camera-info"
+      "exe":"termux-camera-info",
+      "hasArguments":false
    },
    "cam-p":{
       "exe":"termux-camera-photo",
-      "isArguments":true
+      "hasArguments":true
    },
    "clip-g":{
-      "exe":"termux-clipboard-get"
+      "exe":"termux-clipboard-get",
+      "hasArguments":false
    },
    "clip-s":{
       "exe":"termux-clipboard-set",
-      "isArguments":true
+      "hasArguments":true
    },
    "cont-l":{
-      "exe":"termux-contact-list"
+      "exe":"termux-contact-list",
+      "hasArguments":false
    },
    "loc":{
-      "exe":"termux-location"
+      "exe":"termux-location",
+      "hasArguments":false
    },
    "sms-l":{
-      "exe":"termux-sms-list"
+      "exe":"termux-sms-list",
+      "hasArguments":false
    },
    "torch":{
       "exe":"termux-torch",
-      "isArguments":true
+      "hasArguments":true
    },
    "wifi-i":{
       "exe":"termux-wifi-connectioninfo",
-      "isArgument":true
+      "hasArguments":true
    },
    "wifi-s-i":{
-      "exe":"termux-wifi-scaninfo"
+      "exe":"termux-wifi-scaninfo",
+      "hasArguments":false
+   },
+   "l":{
+      "exe":"ls",
+      "hasArguments":true
    }
 }
