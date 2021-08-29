@@ -1,11 +1,46 @@
 {
-   "ls":{
-      "exe":"ls -l"
+   "b-stat":{
+      "exe":"termux-battery-status"
    },
-   "p":{
-      "exe":"pwd"
+   "bright":{
+      "exe":"termux-brightness",
+      "isArguments":true
    },
-   "c":{
-      "exe":"cal"
+   "c-log":{
+      "exe":"termux-cal-log"
+   },
+   "cam-i":{
+      "exe":"termux-camera-info"
+   },
+   "cam-p":{
+      "exe":"termux-camera-photo",
+      "isArguments":true
+   },
+   "clip-g":{
+      "exe":"termux-clipboard-get"
+   },
+   "clip-s":{
+      "exe":"termux-clipboard-set",
+      "isArguments":true
+   },
+   "cont-l":{
+      "exe":"termux-contact-list"
+   },
+   "loc":{
+      "exe":"termux-location"
+   },
+   "sms-l":{
+      "exe":"termux-sms-list"
+   },
+   "torch":{
+      "exe":"termux-torch",
+      "isArguments":true
+   },
+   "wifi-i":{
+      "exe":"termux-wifi-connectioninfo",
+      "isArgument":true
+   },
+   "wifi-s-i":{
+      "exe":"termux-wifi-scaninfo"
    }
 }
